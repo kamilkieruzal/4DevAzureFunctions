@@ -12,7 +12,7 @@ namespace DevAzureFunctionsApp
 {
     public static class HttpOrderFormSave
 	{
-		[FunctionName("Function1")]
+		[FunctionName("HttpOrderFormSave")]
 		public static IActionResult Run([HttpTrigger(AuthorizationLevel.Anonymous, "post", Route = null)]HttpRequest req, TraceWriter log)
 		{
 			PhotoOrder photoOrder = null;
