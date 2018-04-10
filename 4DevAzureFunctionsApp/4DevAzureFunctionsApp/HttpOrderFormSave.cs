@@ -26,7 +26,7 @@ namespace DevAzureFunctionsApp
 			{
 				return new BadRequestObjectResult("Data Invalid");
 			}
-			return new OkObjectResult("Order processed");
+			return new OkObjectResult("Order processed, XD CUPPA");
 		}
 	}
 }
